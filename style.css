@@ -19,6 +19,7 @@ header{
     padding:15px;
     color:white;
     text-decoration:none;
+    font-size:20px;
     
   }
   
@@ -66,25 +67,40 @@ header{
        padding-top:70px;
     }
   
-  /* 
-  .image{
-    display:grid;
-    grid-template-columns:1fr 94rem 1fr;
-    grid-column:2/3;
-  } */
   
   
-  .image a img{
+  /* .image a img{
     
     width:50%;
     object-fit:cover;
     padding:20px;
+  } */
+
+
+  .image{
+    display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:16px;
+   padding:20px 10px;
   }
   
+  .image img{
+    width:100%;
+  max-width:350px;
+   height:300px;
+  object-fit:cover;
+  border-radius:10px;
+  }
+
+
   #seeall{
     color:white;
     text-decoration:none;
     padding:10px;
+    background-color:#000;
+    border-radius: 10px;
   }
   
   .projects{
@@ -123,6 +139,7 @@ header{
   
   #seeall:hover{
     background-color:red;
+    border-radius: 10px;
     
   }
   
@@ -130,9 +147,20 @@ header{
     color:blue;
     
   }
-  
-  .fab fa-GitHub{
-    padding:auto;
+
+  hr{
+   margin:0%;
+   border:2px solid #be3144;
+   
   }
+
+  #contact p{
+    padding-top: 40px;
+ 
+  }
+  
+  /* .fab fa-GitHub{
+    padding:auto;
+  } */
   
   

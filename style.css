@@ -1,0 +1,138 @@
+header{
+    display:flex;
+    justify-content:flex-end;
+    top:0;
+    left:0;
+    background-color:#be3144;
+    height:40px;
+    position:fixed;
+    width:100%;
+    padding-top:15px;
+  }
+  *{
+    padding:0;
+    margin:0;
+  }
+  
+  
+  .head{
+    padding:15px;
+    color:white;
+    text-decoration:none;
+    
+  }
+  
+  .welcome{
+    background-color:#000;
+    color:white;
+    font-family:'Poppins', sans-serif;
+  height:400px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  font-size:25px;
+  }
+  
+  .welcome p{
+    color:#be3144;
+    font-style: italic;
+  }
+  
+  @media(max-width: 500px){
+  html{
+    font-size:25px;
+  }  
+  
+  }
+  
+  .underline{
+    border:1px solid white;
+    margin:auto;
+    width:450px
+    
+  }
+  
+  .projects{
+    background-color:#45567d;
+    color:white;
+    font-family:'Poppins', sans-serif;
+    text-align:center;
+    
+  }
+  
+  
+  h2{
+       padding-top:70px;
+    }
+  
+  /* 
+  .image{
+    display:grid;
+    grid-template-columns:1fr 94rem 1fr;
+    grid-column:2/3;
+  } */
+  
+  
+  .image a img{
+    
+    width:50%;
+    object-fit:cover;
+    padding:20px;
+  }
+  
+  #seeall{
+    color:white;
+    text-decoration:none;
+    padding:10px;
+  }
+  
+  .projects{
+    padding-bottom:30px;
+  }
+  
+  #contact{
+     background-color:#000;
+    color:white;
+    font-family:'Poppins', sans-serif;
+  height:auto;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  font-size:25px;
+  }
+  
+  
+  #profile-link{
+     color:white;
+    text-decoration:none;
+     font-size:23px;
+    padding-bottom:50px;
+  }
+  
+  #contact p{
+    font-style: italic;
+    font-size:18px;
+    padding-bottom:30px;
+  }
+  
+   #profile-link:hover{
+    color:orange;
+  }
+  
+  #seeall:hover{
+    background-color:red;
+    
+  }
+  
+  .head:hover{
+    color:blue;
+    
+  }
+  
+  .fab fa-GitHub{
+    padding:auto;
+  }
+  
+  
